@@ -1,0 +1,38 @@
+
+//background color to the logo area
+
+.background {
+    
+    img{padding-top: 40px;
+        padding-left: 60px;
+        @include break(700px)
+        {
+        display:none;
+        
+        }
+       
+        
+       
+    }
+}
+    .logo{
+        @include backColor($color);
+        @include break(700px)
+        {
+        background-color:$text-white;
+        
+        }
+
+        
+
+    }
+
+    
+
+
+    /*height: 190px;
+    width: 50%;
+    float:left;margin:0;
+    background-color: #666;
+    img{padding-top: 40px;
+    padding-left: 60px;*/

@@ -1,0 +1,52 @@
+//header part including two lines text and image header
+header                      {width:100%;clear:both;text-align:center;
+margin-top: 0;
+#child{                     background: linear-gradient(to bottom,$foot-color 50%, white 0%); 
+ img                        {max-width:100%;height:auto; float:top;margin: 0 0 0 0;
+                            background: linear-gradient(to bottom,$foot-color 50.7%, white 0%); }}
+
+ h1                         {color:$head-color;font-weight:100;font-size:4em;line-height:0;}
+ h2                         {color:$text-white;font-weight:900;font-size:2.5em;line-height:0;margin-bottom:70px;background:$background;}
+ h3                         {color:$color;font-weight:400;font-size:2em;line-height:0;margin-bottom:50px;
+                            @include break(900px)
+                            {
+                            display:none;
+                            }}
+
+ p                          {width:960px;margin:0 auto;padding:0 10px;
+                           @include break(900px)
+                           {
+    
+                           width:50%;
+    
+                           }}
+
+                            @include clearfix;}
+
+header :nth-child(1)        {height: 30px;background: $foot-color;text-align:center;padding-top:100px;margin:0 0 0 0;
+                            @include break(1000px)
+                            {
+                            display:none;
+                            }}
+
+header :nth-child(2)        {height: 30px;background: $foot-color;text-align:center;padding-top:10px;float:top; margin:0 0 0 0;
+                            @include break(1000px)
+                            {
+                            display:none;
+                            }}
+
+
+
+
+
+/*header                      {width:100%;clear:both;text-align:center;@include clearfix;}
+header :nth-child(1) {height:50px;background: $foot-color;text-align:center;padding-top:100px;margin-top: 0;}
+header :nth-child(2) {height:50px;background: $foot-color;text-align:center;padding-top:100px;margin-top: 0;}
+header img                  {max-width:100%;height:auto; float:top;}
+header h1                   {color:#E65C43;font-weight:100;font-size:4em;line-height:0;}
+header h2                   {color:#FFF;font-weight:900;font-size:2.5em;line-height:0;margin-bottom:70px;background:$background;}
+header h3                   {color:#666;font-weight:400;font-size:2em;line-height:0;margin-bottom:50px;}
+header p {width:960px;margin:0 auto;padding:0 10px;}*/
+
+
+
